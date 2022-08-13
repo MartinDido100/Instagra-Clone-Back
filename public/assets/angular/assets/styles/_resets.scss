@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color:inherit;
+  }
+  video {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+  }
+  p a {
+    display: inline;
+  }
+  li {
+    list-style-type: none;
+  }
+  table,
+  tr,
+  td {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    hyphens: auto;
+  }
+  form {
+    input,
+    textarea,
+    select {
+      font-size: inherit;
+      hyphens: auto;
+      background-color: transparent;
+      display: flex;
+    }
+  }
+  
+  body {
+    width: 100%;
+    font-size: 100%;
+    line-height: 1.4em;
+    min-height: 100vh;
+    background-color: white;
+    hyphens: auto;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
