@@ -184,9 +184,11 @@ class UserController extends Controller
             'ok' => true,
             'id' => $user->id,
             'name'=> $user->name,
+            'surname' => $user->surname,
+            'email' => $user->email,
             'images' => $images,
-            'followers' => count($user->follows),
-            'follows' => count($user->followers),
+            'followers' => count($user->followers),
+            'follows' => count($user->follows),
             'avatar_path' => $user->avatar_path,
         ]);
 
