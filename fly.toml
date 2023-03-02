@@ -16,13 +16,6 @@ processes = []
   LOG_CHANNEL = "stderr"
   LOG_LEVEL = "info"
   LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
-  DB_CONNECTION="pgsql"
-  DB_HOST="motty.db.elephantsql.com"
-  DB_PORT="5432"
-  DB_DATABASE="hskvqheo"
-  DB_USERNAME="hskvqheo"
-  DB_PASSWORD="z3A_CO3bLJfHsVKiR5COPp-7hwvB0gTT"
-  JWT_SECRET="1BWM5uJbOiQ9wX7pe4gPkiY2dQcVq2JMGbn5mHpKGKZtbCAVjPTsxyap80GhHGhm"
 
 [experimental]
   auto_rollback = true
